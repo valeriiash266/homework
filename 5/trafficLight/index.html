@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light</title>
+    <style>
+        .light {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 10px;
+            transition: background-color 0.5s;
+            border: 1px solid black;
+        }
+        #traffic-light {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            border: 1px solid black;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Світлофор</h2>
+<div id="traffic-light">
+    <div id="red" class="light"></div>
+    <div id="yellow" class="light"></div>
+    <div id="green" class="light"></div>
+</div>
+
+
+
+<script src="script.js">
+
+</script>
+
+</body>
+</html>

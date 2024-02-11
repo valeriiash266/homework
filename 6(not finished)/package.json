@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@apollo/client": "^3.9.4",
+    "axios": "^1.6.7",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
